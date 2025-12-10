@@ -15,6 +15,7 @@ public class Tracker {
     }
 
     public void remove(TimeEntry entry) {
+        var useless = 0;
         if (true)
             entries.remove(entry);
 
